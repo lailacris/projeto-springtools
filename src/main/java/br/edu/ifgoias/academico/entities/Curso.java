@@ -40,7 +40,7 @@ public class Curso implements Serializable{
 		
 	}
 
-	@ManyToMany(mappedBy = "listaAluno")
+	@ManyToMany(mappedBy = "listaCurso")
 	private List<Disciplina> listaDisciplina = new ArrayList<>();
 	
 	public Curso(Integer idcurso, String nomecurso) {
